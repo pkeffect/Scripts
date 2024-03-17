@@ -16,17 +16,17 @@ The install script also includes Oxide.Ext.RustEdit.dll and Oxide.Ext.Discord.dl
 Example Startup scripts will be included soon....
 
 
-### Todo
+## Todo
 
 - [ ] Add error handling and reporting  
 - [ ] Optimize and clean up code  
   - [ ] Combine into a single script for all Carbon server deployments  
 
 
-### In Progress
+## In Progress
 
 - [ ] Work on Github Repo 
 
-### Done ✓
+## Done ✓
 
 - [x] Create my first TODO list here ! 
