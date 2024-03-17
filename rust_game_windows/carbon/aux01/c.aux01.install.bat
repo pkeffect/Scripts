@@ -5,11 +5,10 @@ CLS
 color 0e
 :MENU
 CLS
-rem ======== ONLY CHANGE THESE LINES ========
+
 set steamCMDPath="%CD%\.steamcmd\steamcmd.exe"
 set serverPath="%CD%"
 set serverFolder="%CD%\server\rust"
-rem ======== ONLY CHANGE THESE LINES ========
 
 GOTO :MAIN
 
