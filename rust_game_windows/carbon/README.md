@@ -1,6 +1,8 @@
 ## README.md
 
-Here are some very basic .bat scripts for quick and easy downloading and installing of SteamCMD, RUST and the different deployments (builds) of the Carbon framework. Just follow the directions below to get started.
+Here are some very basic .bat scripts for easy downloading and installing of SteamCMD, RUST and the different deployments (builds) of the Carbon framework. Just follow the directions below to get started. These were written for quick and dirty deployment. Startup script examples will be added soon.
+
+
 ### STEPS
 1. Download the .bat files for the release you want to use.
 2. Create a local directory to place them in.
