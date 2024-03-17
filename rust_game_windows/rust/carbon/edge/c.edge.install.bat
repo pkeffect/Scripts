@@ -1,6 +1,11 @@
-@ echo off 
-cls
+TITLE SteamCMD Install
+REM Author: pkeffect@gmail.com
+@ECHO OFF
+CLS
 color 0e
+:MENU
+CLS
+REM This script downloads, extracts, and runs SteamCMD
 rem ======== ONLY CHANGE THESE LINES ========
 set steamCMDPath="%CD%\.steamcmd\steamcmd.exe"
 set serverPath="%CD%"
