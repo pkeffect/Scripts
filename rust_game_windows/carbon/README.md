@@ -1,3 +1,5 @@
+## README.md
+
 Download the .bat files for the release you want to use.
 
 Create a local directory to place them in.
@@ -20,10 +22,11 @@ Example Startup scripts will be included soon....
 - [ ] Optimize and clean up code  
   - [ ] Combine into a single script for all Carbon server deployments  
 
+
 ### In Progress
 
 - [ ] Work on Github Repo 
 
 ### Done ✓
 
-- [x] Create my first TODO.md  
+- [x] Create my first TODO list here ! 
