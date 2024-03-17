@@ -1,3 +1,4 @@
+@ -1,40 +0,0 @@
 TITLE SteamCMD Install
 REM Author: pkeffect@gmail.com
 @ECHO OFF
