@@ -8,7 +8,7 @@ When its done type 'quit'.
 
 Then run the .bat script for installing whichever release you chose.
 
-The install scripts also include the Oxide.Ext.RustEdit.dll and  the Oxide.Ext.Discord.dll and places them in the correct directory for you.
+The install scripts also installs the Oxide.Ext.RustEdit.dll and the Oxide.Ext.Discord.dll and places them in the correct directory for you.
  
 
 Example Startup scripts will be included soon....
