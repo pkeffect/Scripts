@@ -7,5 +7,5 @@
 5. Then run the .bat script for installing whichever release you chose.
 6. The install script also includes Oxide.Ext.RustEdit.dll and Oxide.Ext.Discord.dll and places them in the correct directory for you.
 
-[I'm a relative reference to a repository file](../blob/main/rust_game_windows/carbon/TODO.md)
+[I'm a relative reference to a repository file](TODO.md)
 
