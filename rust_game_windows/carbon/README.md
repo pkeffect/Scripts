@@ -18,7 +18,7 @@ Example Startup scripts will be included soon....
 
 - [ ] Add error handling and reporting  
 - [ ] Optimize and clean up code  
-  - [ ] Sub-task or description  
+  - [ ] Combine into a single script for all Carbon server deployments  
 
 ### In Progress
 
