@@ -1,6 +1,6 @@
 ## README.md
 
-Here are some very basic .bat scripts for easy downloading and installing of [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD), [RUST](https://rust.facepunch.com/) and the different deployment [builds](https://github.com/CarbonCommunity/Carbon/releases) of the [Carbon](https://carbonmod.gg/) framework. Just follow the directions below to get started. These were written for quick and dirty deployment. Startup script examples will be added soon.
+Here are some very basic .bat scripts for easy downloading and installing of [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD), [RUST](https://rust.facepunch.com/) and the different deployment [builds](https://github.com/CarbonCommunity/Carbon/releases) of the [Carbon](https://carbonmod.gg/) framework. Just follow the directions below to get started. These were written for quick and dirty deployments. Startup script examples will be added soon.
 
 
 ### STEPS
