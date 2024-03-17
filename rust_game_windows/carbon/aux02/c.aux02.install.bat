@@ -13,7 +13,7 @@ set serverFolder="%CD%\server\rust"
 GOTO :MAIN
 
 :UpdateServerAndValidate
-@echo Updating and Validating Rust Carbon AUX02
+@echo Updating and Validating Rust
 %steamCMDPath% +force_install_dir %serverPath% +login anonymous +app_update 258550 -beta aux02 validate +quit
 @echo Rust Carbon AUX02 server updated!
 pause
@@ -37,7 +37,14 @@ curl -L "https://github.com/k1lly0u/Oxide.Ext.RustEdit/raw/master/Oxide.Ext.Rust
 pause
 EXIT /B 0
 
+:UpdateDiscord
+@echo Downloading Discord DLL Update
+curl -L "https://umod.org/extensions/discord/download" --output "%serverPath%\carbon\extensions\Oxide.Ext.Discord.dll"
+@echo Discord DLL updated!
+pause
+EXIT /B 0
+
 :MAIN
 set /p opt="Select An Option (1 = Install/Update Carbon AUX02 & RustEdit, 2 = Exit): "
-if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit
+if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit & call UpdateDiscord
 if %opt% == 2 exit
