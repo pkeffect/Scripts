@@ -1,6 +1,10 @@
-@ echo off 
-cls
+TITLE Carbon Staging Install
+REM Author: pkeffect@gmail.com
+@ECHO OFF
+CLS
 color 0e
+:MENU
+CLS
 rem ======== ONLY CHANGE THESE LINES ========
 set steamCMDPath="%CD%\.steamcmd\steamcmd.exe"
 set serverPath="%CD%"

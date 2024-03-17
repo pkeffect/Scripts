@@ -1,4 +1,4 @@
-TITLE Carbon AUX02 Install
+TITLE Carbon AUX01 Install
 REM Author: pkeffect@gmail.com
 @ECHO OFF
 CLS
@@ -14,20 +14,20 @@ rem ======== ONLY CHANGE THESE LINES ========
 GOTO :MAIN
 
 :UpdateServerAndValidate
-@echo Updating and Validating Rust Carbon AUX02
-%steamCMDPath% +force_install_dir %serverPath% +login anonymous +app_update 258550 -beta aux02 validate +quit
-@echo Rust Carbon AUX02 server updated!
+@echo Updating and Validating Rust Carbon AUX01
+%steamCMDPath% +force_install_dir %serverPath% +login anonymous +app_update 258550 -beta aux01 validate +quit
+@echo Rust Carbon AUX01 server updated!
 pause
 EXIT /B 0
 
 :UpdateCarbon 
-@echo Downloading Carbon AUX02 Update
-curl -L "https://github.com/CarbonCommunity/Carbon/releases/download/rustbeta_aux02_build/Carbon.Windows.Debug.zip" --output "%serverPath%\Carbon.Windows.Debug.zip"
+@echo Downloading Carbon AUX01 Update
+curl -L "https://github.com/CarbonCommunity/Carbon/releases/download/rustbeta_aux01_build/Carbon.Windows.Debug.zip" --output "%serverPath%\Carbon.Windows.Debug.zip"
 @powershell.exe -Command "expand-archive -force -literalpath '%serverPath%\Carbon.Windows.Debug.zip' -destinationpath %serverPath%"
 
 @echo Deleting ZIP File
 del "%serverPath%\Carbon.Windows.Debug.zip"
-@echo Carbon AUX02 Updated! Zip file deleted.
+@echo Carbon AUX01 Updated! Zip file deleted.
 pause
 EXIT /B 0
 
@@ -39,6 +39,6 @@ pause
 EXIT /B 0
 
 :MAIN
-set /p opt="Select An Option (1 = Install/Update Carbon AUX02 & RustEdit, 2 = Exit): "
+set /p opt="Select An Option (1 = Install/Update Carbon AUX01 & RustEdit, 2 = Exit): "
 if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit
 if %opt% == 2 exit

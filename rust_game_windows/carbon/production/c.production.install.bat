@@ -1,11 +1,10 @@
-TITLE SteamCMD Install
+TITLE Carbon Production Install
 REM Author: pkeffect@gmail.com
 @ECHO OFF
 CLS
 color 0e
 :MENU
 CLS
-REM This script downloads, extracts, and runs SteamCMD
 rem ======== ONLY CHANGE THESE LINES ========
 set steamCMDPath="%CD%\.steamcmd\steamcmd.exe"
 set serverPath="%CD%"
@@ -40,6 +39,6 @@ pause
 EXIT /B 0
 
 :MAIN
-set /p opt="Select An Option (1 = Install and/or Update Server, Install/Update Carbon, Install/Update RustEdit, 7 = Exit): "
+set /p opt="Select An Option (1 = Install/Update Carbon Production & RustEdit, 2 = Exit): "
 if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit
 if %opt% == 2 exit
