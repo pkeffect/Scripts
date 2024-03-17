@@ -1,32 +1,23 @@
 ## README.md
 
-Download the .bat files for the release you want to use.
-
-Create a local directory to place them in.
-
-Run the steamcmd install script.
-
-When its done type 'quit'.
-
-Then run the .bat script for installing whichever release you chose.
-
-The install script also includes Oxide.Ext.RustEdit.dll and Oxide.Ext.Discord.dll and places them in the correct directory for you.
- 
-
-Example Startup scripts will be included soon....
-
+1. Download the .bat files for the release you want to use.
+2. Create a local directory to place them in.
+3. Run the steamcmd install script.
+4. When its done type 'quit'.
+5. Then run the .bat script for installing whichever release you chose.
+6. The install script also includes Oxide.Ext.RustEdit.dll and Oxide.Ext.Discord.dll and places them in the correct directory for you.
 
 ## Todo
 
 - [ ] Add error handling and reporting  
 - [ ] Optimize and clean up code  
-  - [ ] Combine into a single script for all Carbon server deployments  
+  - [ ] Combine into a single script for all Carbon deployments  
+- [ ] Add exmaple startup scripts for each deployment
 
-
-## In Progress
+### In Progress
 
 - [ ] Work on Github Repo 
 
-## Done ✓
+### Done ✓
 
 - [x] Create my first TODO list here ! 
