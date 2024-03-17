@@ -47,5 +47,5 @@ EXIT /B 0
 
 :MAIN
 set /p opt="Select An Option (1 = Install/Update Carbon AUX01 & RustEdit, 2 = Exit): "
-if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit & call UpdateDiscord
+if %opt% == 1 call :UpdateServerAndValidate & call :UpdateCarbon & call :UpdateRustEdit & call :UpdateDiscord
 if %opt% == 2 exit
