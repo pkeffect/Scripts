@@ -12,3 +12,18 @@ The install script also includes Oxide.Ext.RustEdit.dll and Oxide.Ext.Discord.dl
  
 
 Example Startup scripts will be included soon....
+
+
+### Todo
+
+- [ ] Add error handling and reporting  
+- [ ] Optimize and clean up code  
+  - [ ] Sub-task or description  
+
+### In Progress
+
+- [ ] Work on Github Repo 
+
+### Done ✓
+
+- [x] Create my first TODO.md  
