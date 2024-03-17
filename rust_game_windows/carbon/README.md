@@ -6,9 +6,9 @@ Here are some very basic .bat scripts for easy downloading and installing of [St
 ### STEPS
 1. Download the .bat files for the release you want to use.
 2. Create a local directory to place them in.
-3. Run the steamcmd install script first.
+3. Run the steamcmd install script first (<i>c.install.steamCMD.bat</i>).
 4. When its done type 'quit'.
-5. Then run the .bat script for installing whichever release you chose.
+5. Then run the .bat script for installing whichever release you chose (<i>c.install.<release_name></i>).
 6. The install script also includes [Oxide.Ext.RustEdit.dll](https://github.com/k1lly0u/Oxide.Ext.RustEdit) and [Oxide.Ext.Discord.dll](https://umod.org/extensions/discord/) and places them in the correct directory for you. Which is (carbon/extensions/).
 
 <b>These are for Windows only!</b> 
