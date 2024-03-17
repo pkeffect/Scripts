@@ -1,6 +1,6 @@
 ## README.md
 
-Here are .bat script for downloading and installing the different deployments (builds) of the Carbon framework. Just follow the directions below to get started.
+Here are some .bat scripts for downloading and installing the different deployments (builds) of the Carbon framework. Just follow the directions below to get started.
 
 1. Download the .bat files for the release you want to use.
 2. Create a local directory to place them in.
