@@ -1,0 +1,12 @@
+name: ubuntu
+services:
+  ubuntu:
+    container_name: ubuntu
+    image: pkeffect/ubuntu
+    stdin_open: true
+    tty: true
+    networks:
+      - hyperspace
+networks:
+  hyperspace:
+    external: true

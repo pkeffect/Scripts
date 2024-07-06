@@ -1,0 +1,10 @@
+# This file specifies the packages required to run the project.
+beautifulsoup4
+numpy
+pandas
+matplotlib
+regex
+requests
+scikit-learn
+scipy
+seaborn
